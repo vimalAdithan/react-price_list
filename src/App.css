@@ -3,7 +3,7 @@ body {
 }
 .outer {
   background: #007bff;
-  padding: 10%;
+  padding: 5%;
 }
 .price-outline {
   display: flex;
