@@ -14,197 +14,145 @@ export default function App() {
 }
 function Frame() {
   return (
-    <div className="total">
       <div className="price-outline">
-      <div className="price-inline">
-        <h5 className="head text-light">FREE</h5>
-        <h6 className="head dollor">
-          $0<span className="month">/month</span>
-        </h6>
-        <hr />
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Single User
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          5GB Storage
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Unlimited Public Projects
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Community Access
-        </p>
-        <p className="text-light">
-          <IconButton>
-            <ClearIcon />
-          </IconButton>
-          Unlimited Private Projects
-        </p>
-        <p className="text-light">
-          <IconButton>
-            <ClearIcon />
-          </IconButton>
-          Dedicated Phone Support
-        </p>
-        <p className="text-light">
-          <IconButton>
-            <ClearIcon />
-          </IconButton>
-          Free Subdomain
-        </p>
-        <p className="text-light">
-          <IconButton>
-            <ClearIcon />
-          </IconButton>
-          Monthly Status Reports
-        </p>
-        <div className="head">
-          <Button variant="contained" className="button">
-            <a className="link" href="#">
-              Button
-            </a>
-          </Button>
-        </div>
-      </div>
-      
+        <div className="price-inline">
+          <h5 className="head text-light">FREE</h5>
+          <h6 className="head dollor">
+            $0<span className="month">/month</span>
+          </h6>
+          <hr />
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Single User
+          </p>
 
-      <div className="price-inline">
-        <h5 className="head text-light">PLUS</h5>
-        <h6 className="head dollor">
-          $9<span className="month">/month</span>
-        </h6>
-        <hr />
-        <p className="inline">
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          5 User
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          50GB Storage
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Unlimited Public Projects
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Community Access
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Unlimited Private Projects
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Dedicated Phone Support
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Free Subdomain
-        </p>
-        <p className="text-light">
-          <IconButton>
-            <ClearIcon />
-          </IconButton>
-          Monthly Status Reports
-        </p>
-        <div className="head">
-          <Button variant="contained" className="button">
-            <a className="link" href="#">
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            5GB Storage
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Unlimited Public Projects
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Community Access
+          </p>
+          <p className="text-light">
+            <ClearIcon
+              style={{ verticalAlign: " text-bottom", opacity: "0.7" }}
+            />
+            Unlimited Private Projects
+          </p>
+          <p className="text-light">
+            <ClearIcon
+              style={{ verticalAlign: " text-bottom", opacity: "0.7" }}
+            />
+            Dedicated Phone Support
+          </p>
+          <p className="text-light">
+            <ClearIcon
+              style={{ verticalAlign: " text-bottom", opacity: "0.7" }}
+            />
+            Free Subdomain
+          </p>
+          <p className="text-light">
+            <ClearIcon
+              style={{ verticalAlign: " text-bottom", opacity: "0.7" }}
+            />
+            Monthly Status Reports
+          </p>
+         
+            <a className="button" href="#">
               Button
             </a>
-          </Button>
+        </div>
+
+        <div className="price-inline">
+          <h5 className="head text-light">PLUS</h5>
+          <h6 className="head dollor">
+            $9<span className="month">/month</span>
+          </h6>
+          <hr />
+          <p className="inline">
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />5 User
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            50GB Storage
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Unlimited Public Projects
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Community Access
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Unlimited Private Projects
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Dedicated Phone Support
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Free Subdomain
+          </p>
+          <p className="text-light">
+            <ClearIcon
+              style={{ verticalAlign: " text-bottom", opacity: "0.7" }}
+            />
+            Monthly Status Reports
+          </p>
+          <a className="button" href="#">
+              Button
+            </a>
+        </div>
+        <div className="price-inline">
+          <h5 className="head text-light">PRO</h5>
+          <h6 className="head dollor">
+            $49<span className="month">/month</span>
+          </h6>
+          <hr />
+          <p className="inline">
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Unlimited User
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            150GB Storage
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Unlimited Public Projects
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Community Access
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Unlimited Private Projects
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Dedicated Phone Support
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            <span className="inline">Unlimited</span> Free Subdomain
+          </p>
+          <p>
+            <CheckIcon style={{ verticalAlign: " text-bottom" }} />
+            Monthly Status Reports
+          </p>
+          <a className="button" href="#">
+              Button
+            </a>
         </div>
       </div>
-      <div className="price-inline">
-        <h5 className="head text-light">PRO</h5>
-        <h6 className="head dollor">
-          $49<span className="month">/month</span>
-        </h6>
-        <hr />
-        <p className="inline">
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Unlimited User
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          150GB Storage
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Unlimited Public Projects
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Community Access
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Unlimited Private Projects
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Dedicated Phone Support
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          <span className="inline">Unlimited</span> Free Subdomain
-        </p>
-        <p>
-          <IconButton>
-            <CheckIcon />
-          </IconButton>
-          Monthly Status Reports
-        </p>
-        <div className="head">
-          <Button variant="contained" className="button">
-            <a className="link" href="#">
-              Button
-            </a>
-          </Button>
-        </div>
-      </div>     
-    </div>
-    </div>
   );
 }
